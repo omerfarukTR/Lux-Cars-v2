@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #E9ECEF;
+}
+
+header {
+    background-color: #3F72AF;
+    font-family: 'Oswald', sans-serif;
+}
+header h1{
+    margin: 0;
+    padding: 20px 20px;
+    font-size: 3em;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.541);
+}
+
+header h1:hover {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#top-nav {
+    list-style-type: none;
+    background-color: #DBE2EF;
+}
+
+#top-nav li {
+    display: inline-block;
+}
+
+#top-nav a {
+    display: block;
+    padding: 10px;
+}
+#top-nav a:hover {
+    background-color: #112D4E;
+    color: #F9F7F7;
+}
+
+.container a:hover {
+    opacity: 0.85;
+    color: blue;
+}
+
+.container p:hover {
+    cursor: auto;
+}
+.jumbotron {
+    text-align: center;
+    background-color: #112D4E;
+    color: #F9F7F7;
+}
+
+.jumbotron h2 {
+    font-size: 2em;
+}
+
+.follow-link {
+    display: inline;
+}
+
+.follow-link:hover {
+    opacity: 0.8;
+}
+
+.follow-link a {
+    display: block;
+    padding: 5px 0;
+    color: #E8E8EA;
+    width: 100%;
+}
+
+.follow-link img {
+    display: inline-block;
+    width:20%;
+    margin-right: 20px;
+}
+
+.follow-link a:hover {
+    color: #E8E8EA;
+}
+
+footer {
+    background-color: #3F72AF;
+    padding: 20px;
+}
+footer a{
+    text-decoration: underline;
+    color: rgb(187, 187, 187);
+}
+
+footer a:hover {
+    color: white;
+}
+
+.caption {
+    display: inline-block;
+    text-align: center;
+    font-style: italic;
+}
